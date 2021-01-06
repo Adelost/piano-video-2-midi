@@ -14,14 +14,19 @@ layout = [
     [sg.Text('Transpose semitone'), sg.Input(size=(10, 1), key='TRANSPOSE_SEMITONE'),
      sg.Text('Transpose octave'), sg.Input(size=(10, 1), key='TRANSPOSE_OCTAVE')],
     [sg.Checkbox('Add sustain', key='ADD_SUSTAIN'), sg.Checkbox('Transpose to C Major', key='TRANSPOSE_C_MAJOR')],
-    [sg.Text('Start time'), sg.Input(size=(10, 1), key='START_TIME'), sg.Text('Temp (BPM)'), sg.Input(size=(10, 1), key='TEMPO')],
+    [sg.Text('Start time'), sg.Input(size=(10, 1), key='START_TIME'), sg.Text('Tempo (BPM)'), sg.Input(size=(10, 1), key='TEMPO')],
     [sg.Button('Play', key='PLAY'), sg.Button('Pause/Unpause', key='PAUSE'), sg.Button('Stop', key='STOP')],
     [sg.Button('Create', key='CREATE')],
 ]
 
 midi_creator = MidiCreator()
 default_args = midi_creator.get_default_args()
-gui = GUI(layout, default_args, save_settings_key='SAVE_SETTINGS', settings_file='json2midi.settings.json')
+gui = GUI(
+    layout,
+    title='JSON to MIDI',
+    default_args=default_args,
+    save_settings_key='SAVE_SETTINGS',
+    settings_file='json2midi.settings.json')
 
 
 def validate_args(args):

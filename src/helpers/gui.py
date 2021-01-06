@@ -5,7 +5,9 @@ import json
 
 
 class GUI:
-    def __init__(self, layout,
+    def __init__(self,
+                 layout,
+                 title='',
                  default_args=None,
                  settings_file='settings.json',
                  save_settings_key=None,
@@ -13,7 +15,7 @@ class GUI:
         self.settings_file = settings_file
         self.default_args = default_args
         self.save_settings_key = save_settings_key
-        self.window = sg.Window('Piano video to midi', layout)
+        self.window = sg.Window(title, layout)
         self.window.finalize()
         self.load_args(default_args)
 

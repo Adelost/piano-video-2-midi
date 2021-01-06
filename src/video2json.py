@@ -66,7 +66,12 @@ def on_progress(count, max_count):
 
 process = VideoScanner(on_preview_image=on_preview_image, on_progress=on_progress)
 default_args = process.get_default_args()
-gui = GUI(layout, default_args, save_settings_key='SAVE_SETTINGS', settings_file='video2json.settings.json')
+gui = GUI(
+    layout,
+    title='Video to JSON',
+    default_args=default_args,
+    save_settings_key='SAVE_SETTINGS',
+    settings_file='video2json.settings.json')
 
 
 def validate_args(args):
