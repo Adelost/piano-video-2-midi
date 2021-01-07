@@ -35,6 +35,12 @@ Besides it was fun to make, which should be a reason enough for any software to 
 
 Run `video2json.py` followd by `json2midi.py` found in `src/`-directory.
 
+```bash
+python video2json.py
+python json2midi.py
+```
+
+
 ## Known problems
 
 * Fast repeated keypresses of same key can in some cases be transcribed as one keypress. This happens if no frame in the video exists where
