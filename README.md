@@ -31,6 +31,13 @@ Besides it was fun to make, which should be a reason enough for any software to 
 
 * Python 3.7 (recommended)
 
+## Installation
+
+```
+pip install PySimpleGUI matplotlib pygame midiutil opencv-python
+```
+
+
 ## Instructions
 
 Run `video2json.py` followd by `json2midi.py` found in `src/`-directory.
@@ -39,6 +46,7 @@ Run `video2json.py` followd by `json2midi.py` found in `src/`-directory.
 python video2json.py
 python json2midi.py
 ```
+
 
 
 ## Known problems
