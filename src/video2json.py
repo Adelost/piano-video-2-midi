@@ -1,8 +1,8 @@
 import PySimpleGUI as sg
 import matplotlib.pyplot as plt
 
-from src.helpers.gui import GUI
-from src.helpers.video_scanner import VideoScanner
+from helpers.gui import GUI
+from helpers.video_scanner import VideoScanner
 
 layout = [
     [sg.Checkbox('Remember settings next startup', key='SAVE_SETTINGS', enable_events=True)],

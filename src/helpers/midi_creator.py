@@ -1,7 +1,7 @@
 from midiutil.MidiFile import MIDIFile
 import json
 
-from src.helpers import utils
+from helpers import utils
 
 
 class MidiCreator:

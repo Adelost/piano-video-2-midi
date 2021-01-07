@@ -4,7 +4,7 @@ from pathlib import Path
 import cv2
 import json
 
-from src.helpers import utils
+from helpers import utils
 
 
 class VideoScanner:

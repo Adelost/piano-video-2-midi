@@ -3,9 +3,9 @@ from pathlib import Path
 
 import PySimpleGUI as sg
 
-from src.helpers import media
-from src.helpers.gui import GUI
-from src.helpers.midi_creator import MidiCreator
+from helpers import media
+from helpers.gui import GUI
+from helpers.midi_creator import MidiCreator
 
 layout = [
     [sg.Checkbox('Remember settings next startup', key='SAVE_SETTINGS', enable_events=True)],
