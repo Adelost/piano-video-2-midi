@@ -4,7 +4,7 @@ Transcribes piano videos (e.g. Synthesia) to MIDI files by pixel variations in i
 
 ![Video scanner GUI](./docs/images/gui-demo.png)
 
-Result of video scan is saved in a JSON format. A MIDI-file is created by the second "JSON to MIDI"-GUI that allows additional
+Result of video scan is saved in a custom JSON format. A MIDI-file is created by the second "JSON to MIDI"-GUI that allows additional
  customisations. 
 
 ![JSON GUI](./docs/images/json-gui-demo.png)
@@ -24,7 +24,8 @@ A MIDI-file is often convenient as it can be played in programs such as [Synthes
  
 Programs to convert audio to MIDI-files exists, but most are not fully accurate. Transcribing the notes manually from the video is possible but time
   consuming. However, this is in many cases easily done with "piano-video-2-midi".
-
+  
+Besides it was fun to make, which should be a reason enough for any software to exist.
 
 ## Prerequisites
 
@@ -41,12 +42,12 @@ Run `video2json.py` followd by `json2midi.py` found in `src/`-directory.
  
 ## Alternatives
 
-Each solution often comes with different benefits and drawbacks. If this program did not solve your problem feel free to try these
- alternatives.
+Each solution often comes with different benefits and drawbacks. If this program did not solve your problem feel free to check out these
+ alternatives:
  
   * Transcribes music to MIDI using a pretrained neural network:
   https://piano-scribe.glitch.me/
- * A alternative video to MIDI transcriber:
+ * An alternative video to MIDI transcriber:
  https://github.com/svsdval/video2midi
 
 
