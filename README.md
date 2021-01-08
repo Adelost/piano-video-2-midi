@@ -47,7 +47,11 @@ python video2json.py
 python json2midi.py
 ```
 
+## Tips
 
+A video file can be downloaded of Youtube-like sites in various ways.
+
+If you have Firefox one simple way is to install the [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/) or [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/).
 
 ## Known problems
 
