@@ -50,9 +50,11 @@ python json2midi.py
 
 ## Tips
 
-A video file can be downloaded of Youtube-like sites in various ways.
-
-If you have Firefox one simple way is to install the [Easy Youtube Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/) or [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/).
+* When previewing a video, hovering over the image will display your mouse's x and y coordinates relative to the image in the lower right
+ corner. This helps you input the correct x,y values for the GUI.  
+ 
+* A video file can be downloaded of Youtube-like sites in various ways. If you have Firefox one simple way is to install the [Easy Youtube
+ Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/) or [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/).
 
 ## Known problems
 
