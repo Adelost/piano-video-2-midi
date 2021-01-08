@@ -13,6 +13,7 @@ Result of video scan is saved in a custom JSON format. A MIDI-file is created by
 
 * Detects key presses through color variations in video
 * Customisable detection (sensitivity, detect bright/dark color)
+* Preview of video sampling
 * Preview of MIDI file
 * Allows modifying output MIDI, e.g. add sustain, transposing notes, auto transpose to C-major (to make song easier to play)
 
