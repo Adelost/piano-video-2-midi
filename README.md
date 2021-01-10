@@ -32,7 +32,7 @@ Besides it was fun to make, which should be a reason enough for any software to 
 
 * Python 3.7 (recommended)
 
-## Installation
+Install dependencies with:
 
 ```
 pip install PySimpleGUI matplotlib pygame midiutil opencv-python
@@ -70,7 +70,3 @@ Each solution often comes with different benefits and drawbacks. If this program
   https://piano-scribe.glitch.me/
  * An alternative video to MIDI transcriber:
  https://github.com/svsdval/video2midi
-
-
-
-
