@@ -5,14 +5,14 @@ Transcribes piano videos (e.g. Synthesia) to MIDI files by pixel variations in i
 ![Video scanner GUI](./docs/images/gui-demo.png)
 
 Result of video scan is saved in a custom JSON format. A MIDI-file is created by the second "JSON to MIDI"-GUI that allows additional
- customisations. 
+ customizations. 
 
 ![JSON GUI](./docs/images/json-gui-demo.png)
 
 ## Features
 
 * Detects key presses through color variations in video
-* Customisable detection (sensitivity, detect bright/dark color)
+* Customizable detection (sensitivity, detect bright/dark color)
 * Preview of video sampling
 * Preview of MIDI file
 * Allows modifying output MIDI, e.g. add sustain, transposing notes, auto transpose to C-major (to make song easier to play)
@@ -23,10 +23,9 @@ Piano videos are popular on video sites such as Youtube, though often without an
 A MIDI-file is often convenient as it can be played in programs such as [Synthesia](https://www.synthesiagame.com/) or imported into DAWs
  such as  [FL Studio](https://www.image-line.com/).
  
-Programs to convert audio to MIDI-files exists, but most are not fully accurate. Transcribing the notes manually from the video is possible but time
-  consuming. However, this is in many cases easily done with "piano-video-2-midi".
+Programs to convert audio to MIDI-files exists, but most are not fully accurate. Transcribing the notes manually from the video is possible but time consuming. However, this is in many cases easily done with "piano-video-2-midi".
   
-Besides it was fun to make, which should be a reason enough for any software to exist.
+Besides it was fun to make, which should be reason enough for any software to exist.
 
 ## Prerequisites
 
@@ -63,7 +62,7 @@ python json2midi.py
  
 ## Alternatives
 
-Each solution often comes with different benefits and drawbacks. If this program did not solve your problem feel free to check out these
+If this program did not fit your use case feel free to check out these
  alternatives:
  
   * Transcribes music to MIDI using a pretrained neural network in your browser using WebGL (not perfect but still quite impressive):
