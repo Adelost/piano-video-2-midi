@@ -66,7 +66,7 @@ python json2midi.py
 Each solution often comes with different benefits and drawbacks. If this program did not solve your problem feel free to check out these
  alternatives:
  
-  * Transcribes music to MIDI using a pretrained neural network:
+  * Transcribes music to MIDI using a pretrained neural network in your browser using WebGL (not perfect but still quite impressive):
   https://piano-scribe.glitch.me/
  * An alternative video to MIDI transcriber:
  https://github.com/svsdval/video2midi
