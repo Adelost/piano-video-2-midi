@@ -55,6 +55,9 @@ python json2midi.py
 * A video file can be downloaded of Youtube-like sites in various ways. If you have Firefox one simple way is to install the [Easy Youtube
  Video Downloader Express](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/) or [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/).
 
+* The program is not limited to Synthesia videos, but if you have any problems with key detection remember to try
+ out different key activation thresholds and lot of videos should be possible to transcribe with a bit of experimentation.   
+
 ## Known problems
 
 * Fast repeated keypresses of same key can in some cases be transcribed as one keypress. This happens if no frame in the video exists where
