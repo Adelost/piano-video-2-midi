@@ -34,7 +34,7 @@ Besides it was fun to make, which should be reason enough for any software to ex
 Install dependencies with:
 
 ```
-pip install PySimpleGUI matplotlib pygame midiutil opencv-python
+pip install -r requirements.txt
 ```
 
 
